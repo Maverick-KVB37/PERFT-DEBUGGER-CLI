@@ -85,7 +85,7 @@ Your engine must print its results to standard output in the following format:
 3. Finally, print the total perft result on its own line.
 
 **Example output for `perft(3)` from the starting position:**
-
+```
 a2a3 - 380  
 a2a4 - 420  
 b1a3 - 400  
@@ -107,7 +107,7 @@ g2g4 - 421
 h2h3 - 380  
 h2h4 - 420  
 Total: 8902  
-
+```
 
 **Running the Debugger**  
 For the tool to work, both executables (`perft_debugger` and `MyChessEngine`) must be in the same directory.
@@ -172,6 +172,11 @@ The debugger's internal board state is now updated. The effective depth for the 
 `diff`
 
 You can continue this process until you reach depth 1, which will isolate the exact source of the error.
+
+## REFERENCE VIDEO
+<video src="https://github.com/Maverick-KVB37/PERFT-DEBUGGER-CLI/raw/main/PERFT_DEBUGEER_CLI.mkv" controls width="640">
+  Your browser does not support the video tag.
+</video>
 
 ## License
 This project is licensed under the MIT `License`. See the [LICENSE][./LICENSE] file for details.
